@@ -4,7 +4,6 @@ namespace ConsoleApp2
 {
     internal class Program
     {
-        //The conventional method where we provide the message and the key and then we loop through the message and xor it with the key
         public static int[] Encrypt(int[] message, int[] key)
         {
             int[] encryptedMessage = new int[message.Length];
